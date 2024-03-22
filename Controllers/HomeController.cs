@@ -29,7 +29,7 @@ namespace Mission11_Breshears.Controllers
                 PaginationInfo = new PaginationInfo
                 {
                     CurrentPage = pageNum,
-                    ItemsPerPage = 5,
+                    ItemsPerPage = 10,
                     TotalItems = _repo.Books.Count()
 
                 }

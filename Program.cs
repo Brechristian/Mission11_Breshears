@@ -31,7 +31,7 @@ app.UseRouting();
 
 app.UseAuthorization();
 
-app.MapControllerRoute("pagination", "Project/{pageNum}", new { Controller = "Home", action = "Index" });
+app.MapControllerRoute("pagination", "Book/{pageNum}", new { Controller = "Home", action = "Index" });
 
 app.MapDefaultControllerRoute();
 
